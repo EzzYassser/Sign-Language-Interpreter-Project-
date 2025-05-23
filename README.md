@@ -89,5 +89,5 @@ To better understand how the application works, Please check the video below sho
 ## Contact/Support
 
 If you encounter any issues or have suggestions for improvement, please feel free to reach out:  
-- **Email**: [ezzeldin.yasser@hotmail.com]
+- **Email**: [Ezz El-Din](ezzeldin.yasser@hotmail.com)
 - **GitHub Issues**: Feel free to open an issue on this repository for technical support or feedback.  
