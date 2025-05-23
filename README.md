@@ -3,11 +3,11 @@
 A machine learning-based system to translate sign language into text and speech in real-time.
 
 The **AI Sign Language Translator** is an innovative application designed to bridge communication gaps by translating American Sign Language (ASL) gestures into text and speech in real-time. Built using Python, this project leverages advanced technologies like computer vision, machine learning, and natural language processing to empower users with seamless interaction.
-<br><br><br><br>
+<br><br><br>
 ## Purpose and Impact
-
+<br>
 This application aims to assist individuals who use ASL, such as those who are deaf or hard of hearing, by translating their gestures into text and spoken language in real-time. It can be particularly helpful in medical settings, enabling better communication between patients and healthcare providers. By converting ASL gestures into text and speech, the app facilitates understanding, reduces communication barriers, and promotes inclusivity.
-<br><br><br><br>
+<br><br><br>
 ## Key Features
 
 - **Real-Time Gesture Recognition**: Utilizes a webcam to capture hand gestures, processed through MediaPipe and a pre-trained TensorFlow model (stored as a `.pkl` file) to recognize ASL letters (A-Z).  
@@ -24,7 +24,7 @@ This application aims to assist individuals who use ASL, such as those who are d
   - `HomePage.py`: Displays the welcome screen with a gradient background.  
   - `MainGui.py`: Core application with camera feed, text output, and control buttons (e.g., pause, TTS, clear text).  
 - **Model**: A pre-trained TensorFlow model (`model.pkl`) is used for gesture classification, loaded dynamically using a resource path helper for compatibility with PyInstaller.
-<br><br><br><br>
+<br><br><br>
 ## Repository Structure
 
 - **`/src`**: Contains the source code files (`main.py`, `HomePage.py`, `MainGui.py`), along with the pre-trained model (`model.pkl`) and stylesheets (`HomePage_Style.qss`, `MainGui_Style.qss`).  
