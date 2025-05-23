@@ -1,9 +1,13 @@
-# Sign-Language-Interpreter-Project
+# AI Sign Language Translator
 A machine learning-based system to translate sign language to text/speech in real-time.
+
 
 The **AI Sign Language Translator** is an innovative application designed to bridge communication gaps by translating American Sign Language (ASL) gestures into text and speech in real-time. Built using Python, this project leverages advanced technologies like computer vision, machine learning, and natural language processing to empower users with seamless interaction.
 
-This project is ideal for developers, researchers, or enthusiasts interested in assistive technologies, offering a foundation for further enhancements in sign language translation.
+## Purpose and Impact
+
+This application aims to assist individuals who use ASL, such as those who are deaf or hard of hearing, by translating their gestures into text and spoken language in real-time. It can be particularly helpful in medical settings, enabling better communication between patients and healthcare providers. By converting ASL gestures into text and speech, the app facilitates understanding, reduces communication barriers, and promotes inclusivity.
+
 
 ## Key Features:
 
@@ -64,3 +68,40 @@ To get started with the AI Sign Language Translator, follow these steps:
 | [Python](https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe)  | 3.11.9     | Core Programming Language |
 
 
+## Demo/Usage Video
+
+To better understand how the application works, you can record a short demo video showing the app in action (e.g., performing ASL gestures and seeing the text/speech output). Upload the video to a platform like YouTube or Google Drive, and include the link here. For example:  
+- [Demo Video Link](https://www.youtube.com/your-video-link) *(Note: Please replace this with the actual link after uploading the video.)*
+
+## Limitations
+
+- **Gesture Recognition**: The app currently supports only ASL letters (A-Z) and may not accurately recognize full words or complex gestures.
+- **Lighting and Background**: Performance may vary depending on lighting conditions or background noise in the video feed.
+- **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.
+- **Language Support**: Text-to-speech currently supports English only.
+- **Accuracy**: While autocorrection improves output, some gestures may still be misrecognized, especially with fast movements or overlapping hands.
+
+## Future Improvements
+
+- Expand gesture recognition to include full ASL words, numbers, and common phrases.
+- Improve accuracy under varying lighting conditions and backgrounds.
+- Add support for multiple languages in text-to-speech.
+- Optimize performance for lower-end devices.
+- Include a tutorial mode to guide users on proper gesture positioning.
+
+## Contact/Support
+
+If you encounter any issues or have suggestions for improvement, please feel free to reach out:  
+- **Email**: [Your email address]  
+- **GitHub Issues**: Feel free to open an issue on this repository for technical support or feedback.  
+
+This project is a work in progress, and I’d greatly appreciate your feedback, especially on how it can better serve medical communication needs.
+
+### Explanation of Additions:
+- **Purpose and Impact**: Explains the app's relevance, especially in a medical context, to highlight its value to your doctor.
+- **Demo/Usage Video**: Suggests adding a visual demo to make it easier for your doctor to understand the app without needing to run it.
+- **Limitations**: Provides transparency about the app’s current capabilities, which is important for a reviewer to understand its practical use.
+- **Future Improvements**: Shows your vision for the project, which can demonstrate your commitment to enhancing it.
+- **Contact/Support**: Gives your doctor a way to provide feedback or ask questions, making the review process more collaborative.
+
+You can replace placeholders like `[Your email address]` and the demo video link with actual details before sharing. This README should now be comprehensive and suitable for your doctor’s review.
