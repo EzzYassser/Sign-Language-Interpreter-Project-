@@ -61,6 +61,6 @@ To get started with the AI Sign Language Translator, follow these steps:
 | [textblob](https://pypi.org/project/textblob/) | 0.19.0 | Text Correction |
 | [gTTS](https://pypi.org/project/gTTS/) | 2.5.4 | Text-to-Speech |
 | [pygame](https://pypi.org/project/pygame/) | 2.6.1 | Audio Playback |
-| Python       | 3.11.9     | Core Programming Language |
+| [Python](https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe)  | 3.11.9     | Core Programming Language |
 
 
