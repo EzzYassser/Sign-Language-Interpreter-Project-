@@ -3,6 +3,8 @@ A machine learning-based system to translate sign language to text/speech in rea
 
 The **AI Sign Language Translator** is an innovative application designed to bridge communication gaps by translating American Sign Language (ASL) gestures into text and speech in real-time. Built using Python, this project leverages advanced technologies like computer vision, machine learning, and natural language processing to empower users with seamless interaction.
 
+This project is ideal for developers, researchers, or enthusiasts interested in assistive technologies, offering a foundation for further enhancements in sign language translation.
+
 ## Key Features:
 
 - **Real-Time Gesture Recognition**: Utilizes a webcam to capture hand gestures, processed through MediaPipe and a pre-trained TensorFlow model (stored as a `.pkl` file) to recognize ASL letters (A-Z).
@@ -30,16 +32,18 @@ The **AI Sign Language Translator** is an innovative application designed to bri
 
 ## How to Use
 
-To get started with the AI Sign Language Translator, follow these steps:  
-1. **Download the Files**: Clone or download the project files from this GitHub repository.  
-2. **Install the Required Libraries**: Open your terminal, navigate to the project directory, and run the following command to install all necessary dependencies:
+To get started with the AI Sign Language Translator, follow these steps:
+
+1. **Download the Files**: Clone or download the project files from this GitHub repository.
+
+3. **Install the Required Libraries**: Open your terminal, navigate to the project directory, and run the following command to install all necessary dependencies:
 
    ```bash  
-   pip install PyQt6==6.8.1 opencv-python==4.7.0.72 numpy==1.23.5 tensorflow==2.12.0 mediapipe==0.10.14 scikit-learn==1.6.1 textblob==0.19.0 gTTS==2.5.4 pygame==2.6.1  
+   pip install PyQt6==6.8.1 opencv-python==4.7.0.72 numpy==1.23.5 tensorflow==2.12.0 mediapipe==0.10.14 scikit-learn==1.6.1 textblob==0.19.0 gTTS==2.5.4 pygame==2.6.1
+  
 4. **Run the Application** using PyCharm.
-5. **Start Using It**: The application will launch with a home page. Click "Start Translation" to open the main interface. Ensure your webcam is connected, then perform ASL gestures in front of the camera. The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
-
-This project is ideal for developers, researchers, or enthusiasts interested in assistive technologies, offering a foundation for further enhancements in sign language translation.
+  
+6. **Start Using It**: The application will launch with a home page. Click "Start Translation" to open the main interface. Ensure your webcam is connected, then perform ASL gestures in front of the camera. The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
 
 
 ## 📦 Dependencies
@@ -55,7 +59,3 @@ This project is ideal for developers, researchers, or enthusiasts interested in 
 | [textblob](https://pypi.org/project/textblob/) | 0.19.0 | Text Correction |
 | [gTTS](https://pypi.org/project/gTTS/) | 2.5.4 | Text-to-Speech |
 | [pygame](https://pypi.org/project/pygame/) | 2.6.1 | Audio Playback |
-
-### Installation
-```bash
-pip install PyQt6==6.8.1 opencv-python==4.7.0.72 numpy==1.23.5 tensorflow==2.12.0 mediapipe==0.10.14 scikit-learn==1.6.1 textblob==0.19.0 gTTS==2.5.4 pygame==2.6.1
