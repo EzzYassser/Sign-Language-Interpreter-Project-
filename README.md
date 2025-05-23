@@ -34,21 +34,6 @@ This application aims to assist individuals who use ASL, such as those who are d
   
 - **Model**: A pre-trained TensorFlow model (`model.pkl`) is used for gesture classification, loaded dynamically using a resource path helper for compatibility with PyInstaller.
 
-## How to Use
-
-To get started with the AI Sign Language Translator, follow these steps:
-
-1. **Download the Files**: Clone or download the project files from this GitHub repository.
-
-3. **Install the Required Libraries**: Open your terminal, navigate to the project directory, and run the following command to install all necessary dependencies:
-
-   ```bash  
-   pip install PyQt6==6.8.1 opencv-python==4.7.0.72 numpy==1.23.5 tensorflow==2.12.0 mediapipe==0.10.14 scikit-learn==1.6.1 textblob==0.19.0 gTTS==2.5.4 pygame==2.6.1
-  
-4. **Run the Application** using PyCharm.
-  
-6. **Start Using It**: The application will launch with a home page. Click "Start Translation" to open the main interface. Ensure your webcam is connected, then perform ASL gestures in front of the camera. The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
-
 
 ## 📦 Dependencies
 
@@ -66,6 +51,22 @@ To get started with the AI Sign Language Translator, follow these steps:
 | [gTTS](https://pypi.org/project/gTTS/) | 2.5.4 | Text-to-Speech |
 | [pygame](https://pypi.org/project/pygame/) | 2.6.1 | Audio Playback |
 | [Python](https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe)  | 3.11.9     | Core Programming Language |
+
+
+## How to Use
+
+To get started with the AI Sign Language Translator, follow these steps:
+
+1. **Download the Files**: Clone or download the project files from this GitHub repository.
+
+3. **Install the Required Libraries**: Open your terminal, navigate to the project directory, and run the following command to install all necessary dependencies:
+
+   ```bash  
+   pip install PyQt6==6.8.1 opencv-python==4.7.0.72 numpy==1.23.5 tensorflow==2.12.0 mediapipe==0.10.14 scikit-learn==1.6.1 textblob==0.19.0 gTTS==2.5.4 pygame==2.6.1
+  
+4. **Run the Application** using PyCharm.
+  
+6. **Start Using It**: The application will launch with a home page. Click "Start Translation" to open the main interface. Ensure your webcam is connected, then perform ASL gestures in front of the camera. The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
 
 
 ## Demo/Usage Video
