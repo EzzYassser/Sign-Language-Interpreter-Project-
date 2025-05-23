@@ -48,6 +48,8 @@ To get started with the AI Sign Language Translator, follow these steps:
 
 ## 📦 Dependencies
 
+**Note**: ***To avoid any kind of hassle, please use Python 3.11.9.***
+
 | Library       | Version  | Purpose |
 |--------------|----------|---------|
 | [PyQt6](https://pypi.org/project/PyQt6/) | 6.8.1 | GUI Framework |
@@ -61,4 +63,4 @@ To get started with the AI Sign Language Translator, follow these steps:
 | [pygame](https://pypi.org/project/pygame/) | 2.6.1 | Audio Playback |
 | Python       | 3.11.9     | Core Programming Language |
 
-*Note: To avoid any kind of hassle, please use Python 3.11.9.*
+
