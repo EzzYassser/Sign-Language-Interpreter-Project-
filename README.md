@@ -69,7 +69,7 @@ To get started with the AI Sign Language Translator, follow these steps:
 6. **Start Using It**: The application will launch with a home page. Click "Start Translation" to open the main interface. Ensure your webcam is connected, then perform ASL gestures in front of the camera. The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
 
 
-## Demo/Usage Video
+## Demo
 
 To better understand how the application works, Please check the video below showing the app in action  
 - [Demo Video Link](https://www.youtube.com/your-video-link)
