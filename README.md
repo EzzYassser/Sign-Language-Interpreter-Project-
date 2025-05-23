@@ -175,6 +175,4 @@ To better understand how the application works, please check the video below sho
 
 If you encounter any issues or have suggestions for improvement, please feel free to reach out:  
 - **Email**: [ezzeldin.yasser@hotmail.com] or [dramirasaad103@gmail.com]  
-- **GitHub Issues**: Feel free to open an issue on this repository for technical support or feedback.  
-
-This project is a work in progress, and I'd greatly appreciate your feedback, especially on how it can better serve medical communication needs.
+- **GitHub Issues**: Feel free to open an issue on this repository for technical support or feedback.
