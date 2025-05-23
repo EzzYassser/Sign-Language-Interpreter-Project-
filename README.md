@@ -161,19 +161,15 @@ To better understand how the application works, please check the video below sho
 
 ## Limitations
 
-- **Gesture Recognition**: The app currently supports only ASL letters (A-Z) and may not accurately recognize full words or complex gestures.  
-- **Lighting and Background**: Performance may vary depending on lighting conditions or background noise in the video feed.  
-- **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.  
-- **Language Support**: Text-to-speech currently supports English only.  
+- **Gesture Recognition**: The app currently supports only ASL letters (A-Z) and may not accurately recognize full words or complex gestures.
+- **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.
 - **Accuracy**: While autocorrection improves output, some gestures may still be misrecognized, especially with fast movements or overlapping hands.
 
 ## Future Improvements
 
 - Expand gesture recognition to include full ASL words, numbers, and common phrases.  
 - Fix the non-functional home button to enable navigation back to the home page.  
-- Add support for multiple languages in text-to-speech.  
 - Optimize performance for lower-end devices.  
-- Include a tutorial mode to guide users on proper gesture positioning.
 
 ## Contact/Support
 
