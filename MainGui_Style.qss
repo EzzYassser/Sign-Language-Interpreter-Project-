@@ -1,0 +1,54 @@
+QWidget {
+    background-color: #1E1E1E;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+QPushButton#LeftButton {
+    background: qradialgradient(cx:0.5, cy:0.5, radius:0.8,
+        stop:0 #546171, stop:0 #141C27, stop:1 #586575);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+QPushButton#LeftButton:hover {
+    background-color: #27AE60;
+}
+
+QPushButton#RightButton {
+    background: qradialgradient(cx:0.5, cy:0.5, radius:0.8,
+        stop:0 #546171, stop:0 #141C27, stop:1 #586575);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+QPushButton#RightButton:hover {
+    background-color: #357ABD;
+}
+
+QTextEdit {
+    background-color: #222;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid #555; /* Existing border */
+    border-radius: 15px;  /* Adjust corner roundness */
+    outline: 6px solid black; /* Add stroke (outline) to the box */
+}
+
+QLabel {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    qproperty-alignment: AlignCenter;
+    border-radius: 15px;  /* Adjust corner roundness */
+}
+
+QFrame#RightPanel {
+    border-left: 2px solid #546171;
+}

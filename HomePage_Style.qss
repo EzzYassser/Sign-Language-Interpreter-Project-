@@ -1,0 +1,24 @@
+#welcomeLabel {
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#startButton {
+    background-color: #6B5B95;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 30px;
+    min-width: 200px;
+}
+
+#startButton:hover {
+    background-color: #7D6BA5;
+}
+
+#startButton:pressed {
+    background-color: #5A4A85;
+}
