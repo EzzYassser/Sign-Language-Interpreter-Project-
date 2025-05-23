@@ -61,7 +61,7 @@ This application aims to assist individuals who use ASL, such as those who are d
 
 ## 🧠 Model Development
 
-## 📊 Training Notebook
+### 📊 Training Notebook
 Explore the model training process:  
 [`training.ipynb`](./notebooks/training.ipynb)
 
