@@ -70,38 +70,24 @@ To get started with the AI Sign Language Translator, follow these steps:
 
 ## Demo/Usage Video
 
-To better understand how the application works, you can record a short demo video showing the app in action (e.g., performing ASL gestures and seeing the text/speech output). Upload the video to a platform like YouTube or Google Drive, and include the link here. For example:  
-- [Demo Video Link](https://www.youtube.com/your-video-link) *(Note: Please replace this with the actual link after uploading the video.)*
+To better understand how the application works, Please check the video below showing the app in action  
+- [Demo Video Link](https://www.youtube.com/your-video-link)
 
 ## Limitations
 
-- **Gesture Recognition**: The app currently supports only ASL letters (A-Z) and may not accurately recognize full words or complex gestures.
-- **Lighting and Background**: Performance may vary depending on lighting conditions or background noise in the video feed.
-- **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.
-- **Language Support**: Text-to-speech currently supports English only.
-- **Accuracy**: While autocorrection improves output, some gestures may still be misrecognized, especially with fast movements or overlapping hands.
+- A webcam is required.
+- The app may run slower on older hardware due to real-time processing.
+- Text-to-speech currently supports English only.
 
 ## Future Improvements
 
 - Expand gesture recognition to include full ASL words, numbers, and common phrases.
-- Improve accuracy under varying lighting conditions and backgrounds.
+- Add the non-functional home button to enable navigation back to the HomePage.
 - Add support for multiple languages in text-to-speech.
 - Optimize performance for lower-end devices.
-- Include a tutorial mode to guide users on proper gesture positioning.
 
 ## Contact/Support
 
 If you encounter any issues or have suggestions for improvement, please feel free to reach out:  
-- **Email**: [Your email address]  
+- **Email**: [ezzeldin.yasser@hotmail.com]
 - **GitHub Issues**: Feel free to open an issue on this repository for technical support or feedback.  
-
-This project is a work in progress, and I’d greatly appreciate your feedback, especially on how it can better serve medical communication needs.
-
-### Explanation of Additions:
-- **Purpose and Impact**: Explains the app's relevance, especially in a medical context, to highlight its value to your doctor.
-- **Demo/Usage Video**: Suggests adding a visual demo to make it easier for your doctor to understand the app without needing to run it.
-- **Limitations**: Provides transparency about the app’s current capabilities, which is important for a reviewer to understand its practical use.
-- **Future Improvements**: Shows your vision for the project, which can demonstrate your commitment to enhancing it.
-- **Contact/Support**: Gives your doctor a way to provide feedback or ask questions, making the review process more collaborative.
-
-You can replace placeholders like `[Your email address]` and the demo video link with actual details before sharing. This README should now be comprehensive and suitable for your doctor’s review.
