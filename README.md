@@ -3,11 +3,11 @@
 A machine learning-based system to translate sign language into text and speech in real-time.
 
 The **AI Sign Language Translator** is an innovative application designed to bridge communication gaps by translating American Sign Language (ASL) gestures into text and speech in real-time. Built using Python, this project leverages advanced technologies like computer vision, machine learning, and natural language processing to empower users with seamless interaction.
-
+<br><br><br><br>
 ## Purpose and Impact
 
 This application aims to assist individuals who use ASL, such as those who are deaf or hard of hearing, by translating their gestures into text and spoken language in real-time. It can be particularly helpful in medical settings, enabling better communication between patients and healthcare providers. By converting ASL gestures into text and speech, the app facilitates understanding, reduces communication barriers, and promotes inclusivity.
-<br><br>
+<br><br><br><br>
 ## Key Features
 
 - **Real-Time Gesture Recognition**: Utilizes a webcam to capture hand gestures, processed through MediaPipe and a pre-trained TensorFlow model (stored as a `.pkl` file) to recognize ASL letters (A-Z).  
@@ -24,16 +24,12 @@ This application aims to assist individuals who use ASL, such as those who are d
   - `HomePage.py`: Displays the welcome screen with a gradient background.  
   - `MainGui.py`: Core application with camera feed, text output, and control buttons (e.g., pause, TTS, clear text).  
 - **Model**: A pre-trained TensorFlow model (`model.pkl`) is used for gesture classification, loaded dynamically using a resource path helper for compatibility with PyInstaller.
-
-
+<br><br><br><br>
 ## Repository Structure
 
 - **`/src`**: Contains the source code files (`main.py`, `HomePage.py`, `MainGui.py`), along with the pre-trained model (`model.pkl`) and stylesheets (`HomePage_Style.qss`, `MainGui_Style.qss`).  
-- **`/exe`**: Currently not provided. This project requires running the source code directly (no pre-built executables are available).  
-
-
-
-
+- **`/exe`**: Currently not provided. This project requires running the source code directly (no pre-built executables are available).
+<br><br><br><br>
 ## Prerequisites
 
 - **Operating System**: Windows 10/11 or macOS Ventura (13.0) or later.  
@@ -45,8 +41,7 @@ This application aims to assist individuals who use ASL, such as those who are d
 - **Additional Software**:  
   - `pip` (usually bundled with Python; ensure it's added to your PATH).  
   - On macOS: XQuartz for PyQt6 GUI support (download from [here](https://www.xquartz.org/)).  
-
-
+<br><br><br><br>
 ### Dependencies
 
 | Library       | Version  | Purpose                  |
@@ -63,7 +58,7 @@ This application aims to assist individuals who use ASL, such as those who are d
 | [Python](https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe) | 3.11.9 | Core Programming Language |
 
 *Note: To avoid any kind of hassle, please use Python 3.11.9.*
-
+<br><br><br><br>
 ## 🧠 Model Development
 
 ### 📊 Training Notebook
@@ -74,7 +69,7 @@ Explore the model training process:
 Download the ASL datasets used:  
 [`asl_dataset/`](./datasets/ASL_Datasets/)  
 
-
+<br><br><br><br>
 ## Setup and Running Instructions
 
 ### On Windows
@@ -108,7 +103,7 @@ Download the ASL datasets used:
      python main.py
      ```
    - Alternatively, open the project in PyCharm, navigate to `/src`, and run `main.py` from there.
-
+<br><br>
 ### On macOS
 
 1. **Install Python 3.11.9**:
@@ -145,7 +140,7 @@ Download the ASL datasets used:
      ```
    - Alternatively, open the project in PyCharm, navigate to `/src`, and run `main.py` from there.
 
-
+<br><br><br><br>
 ## Using the Application
 
 - The application will launch with a home page.
@@ -153,7 +148,7 @@ Download the ASL datasets used:
 - Ensure your webcam is connected, then perform ASL gestures in front of the camera.
 - The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
 
-
+<br><br><br><br>
 ## Troubleshooting Tips
 
 - **Webcam Not Detected**:
@@ -172,27 +167,27 @@ Download the ASL datasets used:
 - **Model or Stylesheet Not Found**:
   - Ensure `model.pkl`, `HomePage_Style.qss`, and `MainGui_Style.qss` are in the `/src` directory alongside the Python scripts.
 
-
+<br><br><br><br>
 ## Demo / Usage Video
 
 To better understand how the application works, please check the video below showing the app in action:  
 - [Demo Video Link](https://www.youtube.com/your-video-link)
 
-
+<br><br><br><br>
 ## Limitations
 
 - **Gesture Recognition**: The app currently supports only ASL letters (A-Z) and may not accurately recognize full words or complex gestures.
 - **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.
 - **Accuracy**: While autocorrection improves output, some gestures may still be misrecognized, especially with fast movements or overlapping hands.
 
-
+<br><br><br><br>
 ## Future Improvements
 
 - Expand gesture recognition to include full ASL words, numbers, and common phrases.  
 - Fix the non-functional home button to enable navigation back to the home page.  
 - Optimize performance for lower-end devices.  
 
-
+<br><br><br><br>
 ## Contact/Support
 
 If you encounter any issues or have suggestions for improvement, please feel free to reach out:  
