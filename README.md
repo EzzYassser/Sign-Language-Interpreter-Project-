@@ -59,9 +59,16 @@ This application aims to assist individuals who use ASL, such as those who are d
 
 *Note: To avoid any kind of hassle, please use Python 3.11.9.*
 
+## 🧠 Model Development
+
 ## 📊 Training Notebook
 Explore the model training process:  
 [`training.ipynb`](./notebooks/training.ipynb)
+
+### 📂 Datasets
+Download the ASL datasets used:  
+[`asl_dataset/`](./datasets/ASL_Datasets/)  
+*(Preprocessed images of letters A-Z)*
 
 ## Setup and Running Instructions
 
