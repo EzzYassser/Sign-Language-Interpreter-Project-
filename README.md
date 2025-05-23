@@ -59,6 +59,11 @@ This application aims to assist individuals who use ASL, such as those who are d
 
 *Note: To avoid any kind of hassle, please use Python 3.11.9.*
 
+## 📊 Training Notebook
+Open the notebook interactively:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/repo-name/blob/main/notebooks/training.ipynb)  
+[![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/your-username/repo-name/blob/main/notebooks/training.ipynb)
+
 ## Setup and Running Instructions
 
 ### On Windows
