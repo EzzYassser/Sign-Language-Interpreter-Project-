@@ -59,6 +59,10 @@ This application aims to assist individuals who use ASL, such as those who are d
 
 *Note: To avoid any kind of hassle, please use Python 3.11.9.*
 
+## 📊 Training Notebook
+Explore the model training process:  
+[`training.ipynb`](./notebooks/training.ipynb)
+
 ## Setup and Running Instructions
 
 ### On Windows
