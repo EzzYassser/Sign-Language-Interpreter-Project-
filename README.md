@@ -8,6 +8,7 @@ The **AI Sign Language Translator** is an innovative application designed to bri
 
 This application aims to assist individuals who use ASL, such as those who are deaf or hard of hearing, by translating their gestures into text and spoken language in real-time. It can be particularly helpful in medical settings, enabling better communication between patients and healthcare providers. By converting ASL gestures into text and speech, the app facilitates understanding, reduces communication barriers, and promotes inclusivity.
 
+
 ## Key Features
 
 - **Real-Time Gesture Recognition**: Utilizes a webcam to capture hand gestures, processed through MediaPipe and a pre-trained TensorFlow model (stored as a `.pkl` file) to recognize ASL letters (A-Z).  
@@ -15,6 +16,7 @@ This application aims to assist individuals who use ASL, such as those who are d
 - **Text-to-Speech (TTS)**: Converts translated text into spoken words using gTTS and Pygame, enabling auditory feedback.  
 - **Interactive GUI**: Developed with PyQt6, featuring a clean and intuitive interface with a home page (`HomePage.py`) and the main application (`MainGui.py`). The UI is styled with two custom stylesheets (`HomePage_Style.qss` and `MainGui_Style.qss`).  
 - **Smooth Prediction Processing**: Implements smoothing and redundancy filtering to ensure reliable gesture-to-text conversion, with adjustable parameters like prediction thresholds and waiting times between words.
+
 
 ## Technical Overview
 
@@ -25,10 +27,12 @@ This application aims to assist individuals who use ASL, such as those who are d
   - `MainGui.py`: Core application with camera feed, text output, and control buttons (e.g., pause, TTS, clear text).  
 - **Model**: A pre-trained TensorFlow model (`model.pkl`) is used for gesture classification, loaded dynamically using a resource path helper for compatibility with PyInstaller.
 
+
 ## Repository Structure
 
 - **`/src`**: Contains the source code files (`main.py`, `HomePage.py`, `MainGui.py`), along with the pre-trained model (`model.pkl`) and stylesheets (`HomePage_Style.qss`, `MainGui_Style.qss`).  
 - **`/exe`**: Currently not provided. This project requires running the source code directly (no pre-built executables are available).  
+
 
 ## Prerequisites
 
@@ -41,6 +45,7 @@ This application aims to assist individuals who use ASL, such as those who are d
 - **Additional Software**:  
   - `pip` (usually bundled with Python; ensure it's added to your PATH).  
   - On macOS: XQuartz for PyQt6 GUI support (download from [here](https://www.xquartz.org/)).  
+
 
 ### Dependencies
 
@@ -68,7 +73,7 @@ Explore the model training process:
 ### 📂 Datasets
 Download the ASL datasets used:  
 [`asl_dataset/`](./datasets/ASL_Datasets/)  
-*(Preprocessed images of letters A-Z)*
+
 
 ## Setup and Running Instructions
 
@@ -140,12 +145,14 @@ Download the ASL datasets used:
      ```
    - Alternatively, open the project in PyCharm, navigate to `/src`, and run `main.py` from there.
 
+
 ## Using the Application
 
 - The application will launch with a home page.
 - Click "Start Translation" to open the main interface.
 - Ensure your webcam is connected, then perform ASL gestures in front of the camera.
 - The app will translate gestures into text in real-time, display them in the text area, and allow you to use features like text-to-speech (TTS), pause, clear text, or add spaces using the on-screen buttons.
+
 
 ## Troubleshooting Tips
 
@@ -165,10 +172,12 @@ Download the ASL datasets used:
 - **Model or Stylesheet Not Found**:
   - Ensure `model.pkl`, `HomePage_Style.qss`, and `MainGui_Style.qss` are in the `/src` directory alongside the Python scripts.
 
+
 ## Demo / Usage Video
 
 To better understand how the application works, please check the video below showing the app in action:  
 - [Demo Video Link](https://www.youtube.com/your-video-link)
+
 
 ## Limitations
 
@@ -176,11 +185,13 @@ To better understand how the application works, please check the video below sho
 - **Hardware Requirements**: A webcam is required, and the app may run slower on older hardware due to real-time processing.
 - **Accuracy**: While autocorrection improves output, some gestures may still be misrecognized, especially with fast movements or overlapping hands.
 
+
 ## Future Improvements
 
 - Expand gesture recognition to include full ASL words, numbers, and common phrases.  
 - Fix the non-functional home button to enable navigation back to the home page.  
 - Optimize performance for lower-end devices.  
+
 
 ## Contact/Support
 
