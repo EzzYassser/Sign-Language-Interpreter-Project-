@@ -154,10 +154,10 @@ This application aims to assist individuals who use ASL, such as those who are d
 - **Model or Stylesheet Not Found**:
   - Ensure `model.pkl`, `HomePage_Style.qss`, and `MainGui_Style.qss` are in the `/src` directory alongside the Python scripts.
 
-## Demo/Usage Video
+## Demo / Usage Video
 
 To better understand how the application works, please check the video below showing the app in action:  
-- [Demo Video Link](https://www.youtube.com/your-video-link) *(Note: Please replace this with the actual link after uploading the video.)*
+- [Demo Video Link](https://www.youtube.com/your-video-link)
 
 ## Limitations
 
