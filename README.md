@@ -16,9 +16,10 @@ This application aims to assist individuals who use ASL, such as those who are d
 - **Text-to-Speech (TTS)**: Converts translated text into spoken words using gTTS and Pygame, enabling auditory feedback.  
 - **Interactive GUI**: Developed with PyQt6, featuring a clean and intuitive interface with a home page (`HomePage.py`) and the main application (`MainGui.py`). The UI is styled with two custom stylesheets (`HomePage_Style.qss` and `MainGui_Style.qss`).  
 - **Smooth Prediction Processing**: Implements smoothing and redundancy filtering to ensure reliable gesture-to-text conversion, with adjustable parameters like prediction thresholds and waiting times between words.
-<br><br><br><br>
-## Technical Overview
+<br><br><br>
 
+## Technical Overview
+<br>
 - **Libraries Used**: The project integrates OpenCV for video processing, MediaPipe for hand tracking, TensorFlow for machine learning, Scikit-learn for data preprocessing, TextBlob for text correction, gTTS for text-to-speech, and Pygame for audio playback.  
 - **Architecture**: The application is structured into three main scripts:  
   - `main.py`: Entry point to launch the home page.  
@@ -26,8 +27,9 @@ This application aims to assist individuals who use ASL, such as those who are d
   - `MainGui.py`: Core application with camera feed, text output, and control buttons (e.g., pause, TTS, clear text).  
 - **Model**: A pre-trained TensorFlow model (`model.pkl`) is used for gesture classification, loaded dynamically using a resource path helper for compatibility with PyInstaller.
 <br><br><br>
-## Repository Structure
 
+## Repository Structure
+<br>
 - **`/src`**: Contains the source code files (`main.py`, `HomePage.py`, `MainGui.py`), along with the pre-trained model (`model.pkl`) and stylesheets (`HomePage_Style.qss`, `MainGui_Style.qss`).  
 - **`/exe`**: Currently not provided. This project requires running the source code directly (no pre-built executables are available).
 <br><br><br><br>
