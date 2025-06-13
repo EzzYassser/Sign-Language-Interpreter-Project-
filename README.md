@@ -65,11 +65,6 @@ This application aims to assist individuals who use ASL, such as those who are d
 Explore the model training process:  
 [`training.ipynb`](./notebooks/training.ipynb)
 
-### 📂 Datasets
-Download the ASL datasets used:  
-[`asl_dataset/`](./datasets/ASL_Datasets/)  
-
-
 ## Setup and Running Instructions
 
 ### On Windows
@@ -168,7 +163,7 @@ Download the ASL datasets used:
 ## Demo / Usage Video
 
 To better understand how the application works, please check the video below showing the app in action:  
-- [Demo Video Link](https://www.youtube.com/your-video-link)
+- [Demo Video Link]()
 
 ## Limitations
 
